@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.budget.droid="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/record"
+        android:title="@string/record_expense"
+        com.budget.droid:showAsAction="never"
+        android:icon="@drawable/content_new">
+    </item>
+    <item
+        android:id="@+id/budget"
+        android:title="@string/change_budget"
+        com.budget.droid:showAsAction="never">
+    </item>
+</menu>

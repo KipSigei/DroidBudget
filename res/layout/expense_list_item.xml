@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/exp_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp"/>
+    
+    <TextView
+        android:id="@+id/exp_spent"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#D00050FF"
+        android:layout_alignTop="@+id/exp_title"
+        android:layout_alignParentRight="true"
+        android:textStyle="italic"/>
+    
+    <ProgressBar
+        android:id="@+id/exp_graph"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/exp_title"
+        android:layout_alignParentRight="true"
+        android:progressDrawable="@drawable/progress_red" />        
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">Droid Budget</string>
+    <string name="record_expense">Add Expense</string>
+    <string name="change_budget">Budget</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_expenses">You have not recorded any expenses yet</string>
+    <string name="_for">For</string>
+
+    <string-array name="initial_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Communication</item>
+        <item>Clothing</item>
+        <item>Housing</item>
+        <item>Debt Payment</item>
+        <item>Electronics</item>
+        <item>Personal</item>
+        <item>Other</item>
+    </string-array>
+    
+    <string-array name="time_units">
+        <item>Days</item>
+        <item>Months</item>        
+        <item>Weeks</item>
+    </string-array>
+
+</resources>
